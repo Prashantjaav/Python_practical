@@ -1,0 +1,17 @@
+# Python program to remove elements from a dictionary 
+# using the del keyword 
+
+# Dictionary 
+Record = {'id' : 101, 'name' : 'Amit Kumar', 'age' : 21} 
+
+# printing the Dictionary
+print("Record...")
+print(Record)
+
+# Removing elements
+del Record['id']
+del Record['age']
+
+# printing the Dictionary
+print("Record after deleting the elements...")
+print(Record)
