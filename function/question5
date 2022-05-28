@@ -1,0 +1,4 @@
+def func1(*variable):
+    print(variable)
+
+func1('a','b','c')
